@@ -9,5 +9,17 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Djmitry\\Youtube\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Djmitry\\Youtube\\YoutubeServiceProvider"
+            ]
+        }
+    }
 }
