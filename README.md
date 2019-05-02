@@ -6,7 +6,7 @@
 
 # Установка
 ```bash
-composer require djmitry/laravel-youtube-video
+composer require djmitry/laravel-youtube-video:dev-master
 php artisan view:clear
 ```
 
